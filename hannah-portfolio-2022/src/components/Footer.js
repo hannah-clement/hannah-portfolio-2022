@@ -1,5 +1,6 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import "./../styles/components/Footer.css";
 
 function Footer() {
   return (

@@ -1,5 +1,6 @@
 import InfoRow from "./InfoRow";
 import { v4 as uuidv4 } from "uuid";
+import "./../styles/components/Body.css";
 
 function Body({ hannahInfo }) {
   return (

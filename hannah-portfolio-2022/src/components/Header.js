@@ -1,3 +1,5 @@
+import "./../styles/components/Header.css";
+
 function Header() {
   return (
     <div className="App-header">
