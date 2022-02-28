@@ -24,8 +24,58 @@
   color: white;
 }
 
+.Footer {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.Body {
+  background-color: red;
+  display: flex;
+  width: 100%;
+  padding: 50px;
+  margin: 0;
+  flex-direction: row;
+}
+
+.InfoRow {
+  background-color: orange;
+  display: flex;
+  /* justify-content: space-around; */
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+
+.InfoRow__title {
+  background-color: pink;
+  display: flex;
+  -ms-flex-align: start;
+  flex-direction: row;
+  /* -ms-flex-align: end; */
+}
+
+.InfoRow__Image {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  -ms-flex-align: center;
+}
+
+InfoRow__text__paragraph {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: end;
 }
 
 @keyframes App-logo-spin {
